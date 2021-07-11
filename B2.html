@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bảng, video và âm thanh</title>
+    </head>
+
+    <body>
+        <p>Trang này chèn bảng, video và âm thanh</p>
+        <ol style="list-style-type: decimal">
+            <li>Đầu tiên là chèn bảng</li>
+            <p>Bảng đơn giản</p>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <tr>
+                    <td>Hàng 1</td>
+                </tr>
+                <tr>
+                    <td>Hàng 2</td>
+                </tr>
+            </table>
+            <p>Bảng phức tạp</p>
+            <table border="1" cellspacing="0" cellpadding="20" style="text-align:center">
+                <tr>
+                    <td colspan="2">Hàng 1 - Cột 1</td>
+                    <td>Hàng 1 - Cột 2</td>
+                </tr>
+                <tr>
+                    <td>Hàng 2 - Cột 1</td>
+                    <td>Hàng 2 - Cột 2</td>
+                    <td>Hàng 2 - Cột 3</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Hàng 3 - Cột 1</td>
+                    <td>Hàng 3 - Cột 2</td>
+                    <td>Hàng 3 - Cột 3</td>
+                </tr>
+                <tr>
+                    <td>Hàng 4 - Cột 1</td>
+                    <td>Hàng 4 - Cột 2</td>
+                </tr>
+            </table>
+            <li>Chèn video bên dưới</li>
+            <video controls="controls" loop="true">
+                <source src="./file_example.mp4" type="video/mp4"/>
+            </video>
+            <li>Chèn âm thanh bên dưới</li>
+            <audio controls="controls" loop="true">
+                <source src="./48456__flick3r__cold-3.wav" type="audio/wav"/>
+            </audio>
+            <li><a href="./B3.html">Đi đến bài tiếp theo.</a></li>
+        </ol>
+    </body>
+
+</html>
